@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos Gallery With JQuery </title>
+    <style>
+        body {
+            width: 70%;
+            margin: 30px auto;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .container div {
+            display: none;
+        }
+        .container img {
+            width: 100%;
+        }
+        .tombol {
+            margin: 0 auto;
+            color:cadetblue;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="display: block;"><img src="img/boy.jpg" alt=""></div>
+        <div><img src="img/eki.jpg" alt=""></div>
+        <div><img src="img/eza.jpg" alt=""></div>
+        <div><img src="img/obos.jpg" alt=""></div>
+    </div>
+
+    <div class="tombol">
+        <button id="next">Next</button>
+        <button id="prev">Prev</button>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
